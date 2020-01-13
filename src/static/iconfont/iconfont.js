@@ -11,7 +11,7 @@ export const FontStyle = createGlobalStyle`
 		url('./iconfont.svg?t=1578901518993#iconfont') format('svg'); /* iOS 4.1- */
 	}
 
-	&.iconfont {
+	.iconfont {
 		font-family: "iconfont" !important;
 		font-size: 16px;
 		font-style: normal;
@@ -19,17 +19,6 @@ export const FontStyle = createGlobalStyle`
 		-moz-osx-font-smoothing: grayscale;
 	}
 
-	&.iconfangdajing:before {
-		content: "\e60b";
-	}
-
-	&.iconAa:before {
-		content: "\\e636";
-	}
-
-	&.iconyumaobi:before {
-		content: "\e6e5";
-	}
 `
 
 

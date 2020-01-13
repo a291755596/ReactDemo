@@ -6,7 +6,6 @@ class Header extends Component {
     render() {
         return (
             <Fragment>
-                <FontStyle />
                 <HeaderWapper>
                     <Logo />
                     <Nav>
@@ -14,7 +13,8 @@ class Header extends Component {
                         <NavItem className='left'>下载app</NavItem>
                         <NavItem className='right'>登陆</NavItem>
                         <NavItem className='right'>
-                            <i className='iconfont iconAa'></i>
+                            <FontStyle />
+                            <i className='iconfont'>&#xe636;</i>
                         </NavItem>
                         <NavSearch></NavSearch>
                     </Nav>
